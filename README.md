@@ -1,2 +1,104 @@
 # Custom-String-Class-Cpp
 Custom implementation of STRING class in C++
+# Custom STRING Class Implementation in C++
+
+## Project Overview
+This mini project implements a Custom STRING Class in C++ without using the Standard Library std::string.  
+The objective of this project is to understand low-level string manipulation, dynamic memory allocation, and operator overloading by building a string class from scratch using Object-Oriented Programming concepts.
+
+---
+
+## Features Implemented
+The project includes the following features:
+- Default constructor, parameterized constructor, and copy constructor
+- Dynamic memory management using new and delete
+- Operator overloading for common string operations
+- Manual implementation of common string functions without using std::string
+- Demonstration of Rule of Three in C++
+
+---
+
+## Operators Implemented
+The following operators are overloaded in the STRING class:
+- Assignment operator (=)
+- Concatenation operator (+)
+- Subscript operator ([])
+- Stream insertion operator (<<)
+- Stream extraction operator (>>)
+- Comparison operators (==, !=, <, >, <=, >=)
+
+---
+
+## String Functions Implemented
+The following string manipulation functions are implemented using friend functions:
+Strcpy  
+Strncpy  
+Strcmp  
+Strncmp  
+Strcat  
+Strncat  
+Strrev  
+Strupper  
+Strlower  
+Strchr  
+Strrchr  
+Strstr  
+Strlen  
+
+---
+
+## Concepts Used
+This project uses the following C++ concepts:
+- Object-Oriented Programming (OOP)
+- Dynamic memory allocation
+- Operator overloading
+- Friend functions
+- Character array manipulation
+- Rule of Three (Constructor, Copy Constructor, Destructor)
+
+---
+
+## Project Files
+The project consists of the following files:
+- header.h : Contains the STRING class definition
+- friend.cpp : Contains implementation of string functions
+- main.cpp : Test and demonstration program
+- Makefile : Build instructions
+- README.md : Project documentation
+
+---
+
+## Compilation and Execution
+To compile and execute the project using Makefile, run the following commands:
+
+make  
+./myString  
+
+To compile and run manually without Makefile, use:
+
+g++ main.cpp friend.cpp -o myString  
+./myString  
+
+---
+
+## Working Description
+The STRING class internally manages a dynamically allocated character array.  
+User input is accepted using the overloaded extraction (>>) operator and output is displayed using the insertion (<<) operator.
+
+All string operations such as copying, concatenation, comparison, searching, and case conversion are implemented manually without using the C++ Standard Library string class.  
+This project helps in understanding how strings work internally in C++.
+
+---
+
+## Applications
+This project can be used for:
+- Academic mini projects
+- Learning core C++ programming concepts
+- Understanding internal working of strings
+- Interview preparation for C++ fundamentals
+- Practicing memory management and OOP concepts
+
+---
+
+## Author
+Sreenivasulu Gadidala  
